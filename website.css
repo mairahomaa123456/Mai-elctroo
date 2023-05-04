@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    max-width: 100%;
+  }
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2a2525;
+    height: 4.5rem;
+  }
+  .logo{
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 0.2rem 1rem;
+    transition-duration: 0.5s;
+  }
+  #intro {
+    padding: 20px;
+    font-family: cursive;
+    font-weight: 500;
+    color: #1d2026;
+    background-color: #f5fafd;
+  }
+  h1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    transition-duration: 0.5s;
+  }
+  h1{
+    background-color: #19abab;
+    color: #ffffff;
+  }
+  ul{
+    display: flex;
+    list-style: none;
+    padding-right: 1rem;
+    gap: 0.9rem;
+  }
+  #toggle-menu,
+  label{
+    display: none;
+  }
+  a{
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    padding: 0.7rem;
+    
+  }
+  a:hover{
+    color: #19abab;
+    overflow: hidden;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  section.f-section{
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      padding-top: 0.7rem;
+      padding-bottom: 0.7rem;
+      background-image: url("./Photos/b.jpg");
+      background-repeat: space;
+      background-size: cover;
+  }
+  div.product{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    transition-duration: 0.5s;
+  }
+  div.product:hover{
+    background-color: #e8d8c4;
+  }
+  img{
+    width: 70%;
+    align-self: center;
+    transition-duration: 0.5s;
+  }
+  div.product:hover img{
+    transform: scale(1.1);
+  }
+  h2{
+    text-align: center;
+    padding: 1rem 0;
+    transition-duration: 0.5s;
+  }
+  div.product:hover h2{
+    transform: scale(1.1);
+  }
+  p.price{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.6rem;
+    border-bottom: 2px solid #ffffff;
+    transition-duration: 0.5s;
+  }
+  div.product:hover p.price{
+    background-color: #1e5454;
+    color: #ffffff;
+  }
+  h3 a.buy{
+    color: #000;
+    text-decoration: none;
+    padding: 0.6rem;
+    display: flex;
+    justify-content: center;
+    transition-duration: 0.5s
+  }
+  div.product:hover h3 a.buy{
+    background-color: #19abab;
+    color: #ffffff;
+  }
+  section.f2-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./Photos/br.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    gap: 2rem;
+  }
+  div.icon{
+    width: 65vh;
+    transition-duration: 0.5s;
+    padding-top: 0.5rem;
+  }
+  div.icon:hover{
+    background-color: #fff3d9;
+  }
+  #icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding-top: 0.7rem;
+    opacity: 0.4;
+    transition-duration: 0.5s;
+  }
+  div.icon:hover #icons{
+    transform: scale(1.1);
+  }
+  p.d-icon{
+    text-align: center;
+    padding: 0.9rem 0.1rem;
+    font-size: 2rem;
+    transition-duration: 0.5s;
+  }
+  div.icon:hover p.d-icon{
+    transform: scale(1.1);
+  }
+  a.read{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition-duration: 0.5s;
+  }
+  div.icon:hover a.read{
+    background-color: #19abab;
+    color: #ffffff;
+  }
+  section.f3-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./Photos/sw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  div.f-discount,
+  div.s-discount{
+    width: 50%;
+  }
+  div.s-discount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    height: 37rem;
+    transition-duration: 0.5s;
+  }
+  input{
+    margin-top: 2.5rem;
+    height: 9vh;
+    width: 35vh;
+    padding: 5px;
+    caret-color: #373737;
+    border: none;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #cdcdcd;
+    border-radius: 10px;
+  }
+  .Submit{
+    color: #000;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    padding-bottom: 0.5rem;
+    margin-top: 2.5rem;
+    padding: 30px;
+    padding: 20px;
+    width: 35vh;
+    border: none;
+  }
+  .Submit:hover{
+    background-color: #19abab;
+    color: #ffffff;
+  }
+  h2.one-discount,
+  h2.two-discount{
+    font-size: 2.1rem;
+  }
+  div.f-discount{
+    height: 37rem;
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+  }
+  div.f-discount:hover{
+    background-color: #2a7474;
+    color: #ffffff;
+  }
+  div.f-discount:hover h2{
+    color: #ffffff;
+  }
+  div.s-discount{
+    background-color: #e8d8c4
+  }
+  p.p-discount{
+    font-size: 1.5rem;
+  }
+  img.img-discount{
+    width: 300px;
+    max-width: 100%;
+  }
+  input:focus{
+    outline: none;
+    border: 2px solid #19abab;
+  }
+  .Submit:focus{
+    outline: none;
+  }
+  section.f4-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("./Photos/dw.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 1rem;
+    background-size: cover;
+  }
+  div.sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media (max-width: 800px) {
+    div.f-discount,
+    div.s-discount{
+      width: 100%;
+    }
+  }
+  @media (max-width: 540px){
+    nav ul{
+      text-align: center;
+    }
+    nav ul *{
+      padding: 2rem;
+    }
+    ul li {
+      background-color: #373737;
+      color: #ffffff;
+    }
+    label{
+      margin-left: 74%;
+      font-size: 2rem;
+    }
+    header{
+      display: block;
+      padding: 1rem;
+      position: fixed;
+      margin-top: -64px;
+      width: 100%;
+      z-index: 99;
+    }
+    .logo{
+      display: inline;
+    }
+    .checkbox{
+      display: none;
+    }
+    #toggle-menu,
+    label{
+      display: flex;
+      justify-content: end;
+      margin-top: -3rem;
+    }
+    nav ul{
+      display: none;
+    }
+    #toggle-menu:checked ~ nav ul {
+      display: grid;
+      padding: 0.5rem;
+    }
+    h1.s-logo{
+      margin-top: 3.9rem;
+    }
+  }
